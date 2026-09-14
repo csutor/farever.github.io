@@ -4,35 +4,35 @@
         {
             "id" : 1,
             "title" : "Ágazati alapoktatási tárgyak",
-            "technologiak" : ["Virtual Box", "CISCO Packet Tracer", "Crocclip"],
-            "targyak" : ["Számítógépes hardverismeret", "Számítógépes virtualizáció", "Számítógép-hálózatok", "Szf. elektronika", "Linux alap- és haladó ismeretek", "Python", "HTML", "CSS"]
+            "technologiak" : ["Virtual Box", "CISCO Packet Tracer"],
+            "targyak" : ["Számítógépes hardverismeret", "Számítógépes virtualizáció", "Számítógép-hálózatok", "Linux ismeretek", "Python", "HTML", "CSS"]
         },
 
         {
             "id" : 2,
             "title" : "Programnyelvek",
-            "technologiak" : ["Python", "C#", "Kotlin", ".NET", "Selenium" , "Microbit", "Lego robot"],
+            "technologiak" : ["Python", "C#", "Kotlin", ".NET", "Microbit", "Lego robot"],
             "targyak" : ["Programozási alapok", "Asztali alkalmazások fejlesztése és tesztelése", "Mobilalkalmazások fejlesztése"]
         },
 
         {
             "id" : 3,
             "title" : "Webfejlesztés",
-            "technologiak" : ["HTML", "JavaScript", "CSS", "PHP", "React", "Laravel", "Joomla", "NodeJS", "Selenium", "JEST", "Cypress"],
+            "technologiak" : ["HTML", "JavaScript", "CSS", "PHP", "React", "Laravel", "NodeJS"],
             "targyak" : ["Webprogramozási alapok", "Webprogramozás", "Frontend programozás és tesztelés", "Backend programozás és tesztelés"]
         },
 
         {
             "id" : 4,
             "title" : "Adatbázis",
-            "technologiak" : ["MySQL", "MariaDB", "XAMPP", "MSSQL"],
+            "technologiak" : ["MySQL", "MariaDB", "XAMPP"],
             "targyak" : ["Adatbáziskezelés I. és II."]
         },
 
         {
             "id" : 5,
             "title" : "Projektmunka",
-            "technologiak" : ["Git", "GitHub", "Visual Studio Code", "Google Space", "Trello"],
+            "technologiak" : ["Git", "GitHub", "Visual Studio Code", "Trello"],
             "targyak" : ["Szoftverprojektek", "Webkliens projektmunka"]
         }
     ],

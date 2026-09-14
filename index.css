@@ -115,3 +115,23 @@ hr{
 .felszereltsegKepek{
     text-align: center;
 }
+
+/* Nyilak méretezése és sötét háttere */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6); /* Félig áttetsző sötét háttér */
+    border-radius: 50%;                  /* Kör alak */
+    width: 50px;                         /* Nagyobb méret */
+    height: 50px;
+    background-size: 50% 50%;            /* A nyíl ikon mérete a körön belül */
+    border: 2px solid #ffffff;           /* Fehér keret a jobb kontraszthoz */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Egérrel föléhúzva picit megnő és világosabb lesz */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.85);
+    transform: scale(1.1);
+}

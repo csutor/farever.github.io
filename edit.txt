@@ -2,3 +2,13 @@ INDEX.HTML
 1. bootstrap import (v5.3.3)
 2. img href kijavítás (line 68)
 3. table tag hiányos (line 255, 300)
+
+
+
+script.js
+1. modalBody missing (line 46)
+
+
+
+card.css
+1. rotate fix (line 61)

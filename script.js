@@ -43,7 +43,7 @@ function showModal(btnId){
   for (const dia of adatok.Carousel) {
     if(dia["id"] == btnId) {
       document.getElementById('modalTitle').innerText = dia["title"];
-      document.getElementById('modalBody').innerHTML = "<div class='row'><div class='col-5'><h4 class='mx-auto'>Tantárgyak</h4><hr><div>"+ dia["targyak"].join(",\ ") +"</div></div><div class='col-5'><h4 class='mx-auto'>Technológiák</h4><hr><div>"+ dia["technologiak"].join(",\ ") +"</div></div></div>";
+      document.getElementById('?').innerHTML = "<div class='row'><div class='col-5'><h4 class='mx-auto'>Tantárgyak</h4><hr><div>"+ dia["targyak"].join(",\ ") +"</div></div><div class='col-5'><h4 class='mx-auto'>Technológiák</h4><hr><div>"+ dia["technologiak"].join(",\ ") +"</div></div></div>";
   }
   }
 

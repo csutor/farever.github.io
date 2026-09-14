@@ -129,9 +129,14 @@ hr{
     transition: all 0.2s ease-in-out;
 }
 
+
 /* Egérrel föléhúzva picit megnő és világosabb lesz */
-.carousel-control-prev:hover .carousel-control-prev-icon,
 .carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.85);
+    transform: scale(0.1);
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon {
     background-color: rgba(0, 0, 0, 0.85);
     transform: scale(1.1);
 }

@@ -1,8 +1,8 @@
 INDEX.HTML
-1. bootstrap import (v5.3.3)
-2. img href kijavítás (line 68)
-3. table tag hiányos (line 255, 300)
-4. (line 122) hiányzik a button-nek a data-bs-slide="next" bootsrap attribútum
+1. bootstrap import (v5.3.3)   //prompt
+2. img href kijavítás (line 68)  //prompt
+3. table tag hiányos (line 255, 300)   //prompt
+4. (line 122) hiányzik a button-nek a data-bs-slide="next" bootsrap attribútum 
 5. (line 134) <div class="body" style="transform: none;">, ki kell venni a "style="transform: none;""
 
 

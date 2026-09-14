@@ -1,0 +1,4 @@
+INDEX.HTML
+1. bootstrap import (v5.3.3)
+2. img href kijavítás (line 68)
+3. table tag hiányos (line 255, 300)

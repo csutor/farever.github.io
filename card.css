@@ -58,7 +58,7 @@
 
   
 .container .box:hover .body{
-    transform: rotateY(180deg);
+    transform: rotateY(100deg);
 }
 
 .container .box .body .content div{
